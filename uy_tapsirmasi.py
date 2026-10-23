@@ -1,1 +1,6 @@
-
+print("Men \"IT\",ham \"English\", u'yenip atirman") 
+print("14 klasim 9")
+print("Papa mag'an \"Noutbook\" alip berdi")
+print(- 128 + 75)
+print(- 300 - 45)
+print(200, "ha'm", 225 )
