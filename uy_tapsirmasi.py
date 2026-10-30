@@ -100,3 +100,8 @@ dapter_bahasi = 4000
 qalem_bahasi = 200
 jami_baha = dapter_bahasi * qalem_bahasi
 print(jami_baha, "boladi")
+
+# 5-tapsirma
+pitsa_bahasi = input("Pitsa bahasin kiritin: ")
+ishimlik_bahasi = input("Ishimlik bahasin kiritin: ")
+print("Pitsa bahasi",pitsa_bahasi, "Ishimlik bahasi",ishimlik_bahasi)
