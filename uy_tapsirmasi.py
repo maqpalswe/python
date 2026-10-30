@@ -105,3 +105,30 @@ print(jami_baha, "boladi")
 pitsa_bahasi = input("Pitsa bahasin kiritin: ")
 ishimlik_bahasi = input("Ishimlik bahasin kiritin: ")
 print("Pitsa bahasi",pitsa_bahasi, "Ishimlik bahasi",ishimlik_bahasi)
+
+#6-tapsirma  Jami ochko ham ushinsi basqishtagi ochkolar birinshi basqishtagidan qanday pariq qiladi
+ochko1 = 120
+ochko2 = 85
+ochko3 = 95
+jami_ochko = ochko1 + ochko2 + ochko3
+parq = ochko3 - ochko1
+print(jami_ochko, parq)
+
+# 7-tapsirma
+student_name = "Ali"
+print(student_name)
+
+# 8-tapsirma Qateni tabiw
+2_dost = "Ali" #dost_2 boliw kerek
+
+# 9-tapsirma qateni tabiw
+clas = "Infarmatika" # buni ozgeriwshinin atawi retinde qollaniwga bolmaydi sonliqtan ono class_name degen duris
+class_name = "Infarmetika"
+
+#10-tapsirma qatelerdi jondew
+1_kitab = "Ana tili" # hesh qashan aldinda san turmaydi
+kitab_1 = "Ana tili"
+menin jasim = 14 # text barinsha qosilip jazilgan jaqsi
+menim_jasim = 14
+print(kitab_1)
+print(menim_jasim)
