@@ -71,3 +71,32 @@ print("1-qadam: Tizimga kirish")
  print(input("Parol kiritin"))  #bul jerdi print aldiga jiljip qarege jol qoyildi
 print("2-qadam: Xosh keldiniz"  #bul jerge jaqsh ashilip jabilmagan
 
+
+      #Tapsirmalar
+alma_bahasi = 8200
+alma_sani = 4
+jami_baha = alma_bahasi * alma_sani
+print("jamisumma",jami_baha, "boladi")
+
+banan_bahasi = 12000
+banan_sani = 2
+jami_baha = banan_bahasi * banan_sani
+print("jami summa:",jami_baha, "boladi")
+
+#2. Paydalaniwshidan atin,taraw ham tajriybesin soraw maglumatti ozgeriwshilerge saqlaw
+ati = input("Ati:")
+tarawi = input("Tarawi:")
+tajribesi = input("Tajriybesi: ")
+print(ati, tarawi, tajribesi)
+
+# 3-tapsirma qateni durislaw 
+num! = 10
+num2 = 20
+total = num_1 + num2 # num1 boliw kerek
+print(total)
+
+#4-tapsirma
+dapter_bahasi = 4000
+qalem_bahasi = 200
+jami_baha = dapter_bahasi * qalem_bahasi
+print(jami_baha, "boladi")
