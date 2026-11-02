@@ -36,11 +36,18 @@ print(type(15))
 print(type(1.60))
 
 #Tapsirma Ozgeriwshininin turin ekinshi bir ozgeriwshige otiw
-
+#1.
 san = "34"
 san_int = int(34) + 10
 print(san_int)
-
+#2.
 a = 15.9
 a_float = int(a)
 print(a_float)
+
+#3.
+year = 2026
+name = input("Atin kim? ")
+age = int((input("Jasin neshede? ")))
+brithday = year - age 
+print(brithday, "jili tuwilgan eken")
