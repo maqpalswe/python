@@ -138,9 +138,9 @@ name = "Ali"
 age = 15
 height = 1.75
 # type() pen ekranga shigarin
-print(name, type("Ali"))
-print(age, type(15))
-print(height, type(1.75))
+print(type(name))
+print(type(age))
+print(type(height))
 
 #2-TAPSIRMA
 print("Salem", input("Atin lim? "), "Siz", input("Jasin meshede? "),"jastasiz","Siz",input("Qayda jasaysiz? "),"jasaysiz")
