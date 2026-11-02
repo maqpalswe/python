@@ -34,3 +34,13 @@ boyi = 1.60
 print(type("Maqpal"))
 print(type(15))
 print(type(1.60))
+
+#Tapsirma Ozgeriwshininin turin ekinshi bir ozgeriwshige otiw
+
+san = "34"
+san_int = int(34) + 10
+print(san_int)
+
+a = 15.9
+a_float = int(a)
+print(a_float)
