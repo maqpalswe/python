@@ -170,15 +170,20 @@ e = 100
 print(type(a), type(b), type(c), type(d), type(e))
 
 #6-tapsirma Ozi haqqinda maglumat soraw
-print(input("Ati: "), input("Famelitasi "), input("Jasi: "), input("Boyi: "), input("Jaqsi korgen ren:"))
+ati  = input("Ati:  ")
+familasi = input("Familasi: ")
+jas = input("Jasi: ")
+boyi = input("Boyi: ")
+ren = input("Jaqsi korgen reni: 0")
+print(ati, familasi, jas, boyi, ren)
 
 # 7-tapsirma Ozgeriwshinin qatesin tabiw
 name = "Ali"
-user-age = 15
+user-age = 15 # - bolmaydi _ bolgan duris
 my_city = "Nukus"
 2namber = 50 # San aldinda turmaw kk namber2 degen duris
 studentName = "Vali" 
-class = "Python" 
+class = "Python" #zapaski sozler
 
 #8-tapsirma 
 # Ozgeriwshini tartipke saliw 
