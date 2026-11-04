@@ -59,3 +59,9 @@ iyt_pishiq_at = int(input(uy_haywani + "  kunine neshe ret uredi? "))
 dawsi = input("Ol qanday daws shigaradi? ")
 
 print(ati + ' ' + uy_haywani + ' ' + str(iyt_pishiq_at) + ' ' + (dawsi * 10))
+
+word = "1 kg 3000 sum"
+kg = 5
+jami = int(word[5] + word[6] + word[7] + word[-5])
+
+print(jami * kg)
