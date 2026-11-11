@@ -75,3 +75,31 @@ shop = "Bahasi: 18000"
 jami = f"{miywe} {kg} kg bahasi {int(shop[8:]) * kg}"
 
 print(jami, "sum boladi")
+
+"""
+   str methodi and modify str (Ozgertiw);
+"""
+
+name = "aynura"
+name = "A" + name[1:]
+print(name)
+
+#Jildi ozgertiw
+year = "2026"
+year = year[:-1] + "8"
+print(year)
+
+#Str methods
+name = "aydana"
+color = "RED"
+
+print(name.capitalize())
+print(color.capitalize())
+
+#title haqqinda tusinik
+fio = "maqpal sagitjanova nurberovna"
+print(fio.title())
+
+
+region = "Qaraqalpaqstan"
+print(region.count("a", 2))
