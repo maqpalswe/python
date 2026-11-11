@@ -65,3 +65,13 @@ kg = 5
 jami = int(word[5] + word[6] + word[7] + word[-5])
 
 print(jami * kg)
+
+# Classwork
+
+miywe = "Alma"
+kg = 2.5
+shop = "Bahasi: 18000"
+
+jami = f"{miywe} {kg} kg bahasi {int(shop[8:]) * kg}"
+
+print(jami, "sum boladi")
