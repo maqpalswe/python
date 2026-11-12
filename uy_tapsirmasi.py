@@ -448,3 +448,125 @@ card = "8600123456789012"
 jasirin = "*" * (len(card) - 4) + card[-4:]
 
 print(jasirin)
+
+Homework-12
+#1-tapsirma
+
+text = "Men python úyrenip atırman"
+
+# Python sózin English sózi menen almastırıw
+text = text.replace("python", "English")
+
+# Barlıq háriplerdi úlken qılıw
+print(text.upper())
+
+name = "Ali"
+age = 18
+city = "Tashkent"
+
+# Mag'lıwmatlardı bir gápke birlestiriw
+print(f"Meniń atım {name}. Men {age} jastaman. Men {city} qalasında jasayman.")
+
+#2-tapsirma
+name = "Ali"
+age = 18
+city = "Tashkent"
+
+# Mag'lıwmatlardı bir gápke birlestiriw
+print(f"Meniń atım {name}. Men {age} jastaman. Men {city} qalasında jasayman.")
+
+#3-tapsirma
+text = "PYTHON PROGRAMMING"
+
+# Barlıq háriplerdi kishi qılıw
+print(text.lower())
+
+# Tek birinshi háripti úlken qılıw
+print(text.capitalize())
+
+# Hár bir sózdiń birinshi háripin úlken qılıw
+print(text.title())
+
+#4-tapsirma
+text = "Python is easy. Python is powerful. I love Python."
+
+# Python sóziniń neshe márte qatnasqanın anıqlaw
+soni = text.count("Python")
+
+# Nátiyjeni ekranǵa shıǵarıw
+print(f"Python sózi {soni} márte qatnasqan.")
+
+#5-tapsirma
+product = "laptop"
+price = 750.567
+quantity = 2
+
+# Ul'ıwma bahasın esaplaw
+total = price * quantity
+
+# Tovar haqqında maǵlıwmatlardı shıǵarıw
+print(f"Ónim: {product.capitalize()}")
+print(f"Bahası: {price:.2f}")
+print(f"Sani: {quantity} dana")
+print(f"Jámi baha: {total:.2f}")
+
+#6-tapsirma
+name = input("Atıńızdı kirgiziń: ")
+
+# Ortadaǵı háriplerdi * belgisi menen almastırıw
+result = name[0] + "*" * (len(name) - 2) + name[-1]
+
+# Nátiyjeni shıǵarıw
+print("Nátiyje:", result)
+
+#7-tapsirma
+a = "Aziz"
+b = "Almuratov"
+y = 28
+o = "aziz@email.com"
+
+# Maǵlıwmatlardı ekranǵa shıǵarıw
+print(f"Atı: {a}")
+print(f"Familiyası: {b}")
+print(f"Jası: {y}")
+print(f"Elektron pochta: {o}")
+
+#8-tapsirma
+mevalar = ["Alma", "Banan", "Anar", "Júzim"]
+
+# Pайдалanıwshıdan mıywe tańlaw
+tanlov = int(input("Qaysı miyweni tańlaysız? "))
+
+# Tańlawdı tekseriw
+if 1 <= tanlov <= 4:
+    print(f"Siz tańlaǵan miywe: {mevalar[tanlov - 1]}")
+else:
+    print("Bunday miywe joq!")
+
+#9-tapsirma
+mevalar = ["Alma", "Banan", "Anar"]
+bahalar = [4, 7, 5]
+
+# Satıp alınatuǵın miyweni tańlaw
+tanlov = int(input("Qaysı miyweni satıp alasız? "))
+
+# Miyweniń muǵdarın kirgiziw
+kg = int(input("Neshe kg kerek? "))
+
+# Tańlawdı tekseriw
+if 1 <= tanlov <= 3 and kg > 0:
+
+    # Tańlanǵan miyweniń atın alıw
+    meva = mevalar[tanlov - 1]
+
+    # Miyweniń bahasın alıw
+    narx = bahalar[tanlov - 1]
+
+    # Ul'ıwma bahasın esaplaw
+    jami = narx * kg
+
+    # Nátiyjeni shıǵarıw
+    print(f"{meva} {kg} kg = {jami}$")
+
+else:
+    print("Qáte tańlaw!")
