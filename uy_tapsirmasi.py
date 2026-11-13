@@ -519,17 +519,20 @@ result = name[0] + "*" * (len(name) - 2) + name[-1]
 # Nátiyjeni shıǵarıw
 print("Nátiyje:", result)
 
+
 #7-tapsirma
-a = "Aziz"
-b = "Almuratov"
-y = 28
-o = "aziz@email.com"
+ati = "Aziz"
+familasi = "Almuratov"
+jasi = 28
+poshtasi = "aziz@email.com"
 
 # Maǵlıwmatlardı ekranǵa shıǵarıw
-print(f"Atı: {a}")
-print(f"Familiyası: {b}")
-print(f"Jası: {y}")
-print(f"Elektron pochta: {o}")
+print(f"""
+   Ati:{ati}
+   familasi: {familasi}
+   Jasi:{jasi}
+   Elektron poshtasi:{poshtasi}
+""")
 
 #8-tapsirma
 mevalar = ["Alma", "Banan", "Anar", "Júzim"]
