@@ -101,5 +101,36 @@ fio = "maqpal sagitjanova nurberovna"
 print(fio.title())
 
 
+#Classwork-1
+name = "   Maqpal  $  " #"Maqpal"
+#Natijesi
+print(name.strip("  $   "))
+
+#Classwork-2
+name1 = "     Maqpal"  #Maqpal
+#Natijesi
+print(name1.lstrip())
+
+#Classwork-3
+name2 = "Maqpal    " #Maqpal
+#Natijesi
+print(name2.rstrip())
+
+#Classwork-4
+soz = "Men kushlimen" #Men aqilliman
+soz = soz.replace("kushlimen", "aqilliman")
+print(soz)
+
+#Classwork-5
+soz = "Aspanda aq quslar gaq gaq dedi" #Aspondo aq quslar gog gog dedi
+soz = soz.replace("a", "o")
+print(soz)
+
+#Classwork
+soz = "1911-jili 1811-jili" #"3933-jili 3811-jili"
+soz = soz.replace("1911", "3933")
+soz = soz.replace("1811", "3811")
+print(soz)
+
 region = "Qaraqalpaqstan"
 print(region.count("a", 2))
