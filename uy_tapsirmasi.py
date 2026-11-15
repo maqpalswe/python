@@ -573,3 +573,89 @@ if 1 <= tanlov <= 3 and kg > 0:
 
 else:
     print("Qáte tańlaw!")
+
+ #10-tapsirma
+ menu = "1. Burger 25$ 2. Lavash 30$ 3. Hot-dog 15$ 4. Pizza 45$"
+
+taomlar = ["Burger", "Lavash", "Hot-dog", "Pizza"]
+bahalar = [25, 30, 15, 45]
+
+# Paydalanıwshıdan taǵam tańlaw
+tanlov = int(input("Ne buyırtpa qılasız? "))
+
+# Buyırtpa sanın kirgiziw
+soni = int(input("Neshe buyırtpa? "))
+
+# Tańlanǵan taǵamdı anıqlaw
+taom = taomlar[tanlov - 1]
+
+# Ulıwma bahasın esaplaw
+jami = bahalar[tanlov - 1] * soni
+
+# Nátiyjeni ekranǵa shıǵarıw
+print(f"Siz {soni} ta {taom.upper()} buyırtpa qıldıńız.")
+print(f"Jámi: {jami}$")
+ 
+#11-tapsirma
+kitoblar = ["Python", "English", "Mathematics"]
+bahalar = [20, 15, 18]
+
+# Paydalanıwshıdan kitap tańlaw
+tanlov = int(input("Qaysı kitaptı alasız? "))
+
+# Kitap sanın kirgiziw
+soni = int(input("Neshe kerek? "))
+
+# Tańlanǵan kitaptı anıqlaw
+kitob = kitoblar[tanlov - 1]
+
+# Kitap bahasın anıqlaw
+narx = bahalar[tanlov - 1]
+
+# Kitap atındaǵı belgiler sanın anıqlaw
+belgilar = len(kitob)
+
+# Ulıwma bahasın esaplaw
+jami = narx * soni
+
+# Nátiyjelerdi shıǵarıw
+print(f"Siz {soni} ta {kitob.upper()} kitabın satıp aldıńız.")
+print(f"Kitap atındaǵı belgiler sani: {belgilar}")
+print(f"Jámi narx: {jami}$")
+
+#12-tapsirma
+mahsulotlar = ["Sut", "Non", "Tuxum", "Pishloq"]
+bahalar = [2, 1, 5, 8]
+
+# Birinshi tovardı tańlaw
+bir = int(input("Birinshi mahsulottı tańlań: "))
+
+# Birinshi tovardıń muǵdarın kirgiziw
+son1 = int(input("Sutdan neshe alasız? "))
+
+# Ekinshi tovardı tańlaw
+eki = int(input("Ekinshi mahsulottı tańlań: "))
+
+# Ekinshi tovardıń muǵdarın kirgiziw
+son2 = int(input("Pishloqtan neshe alasız? "))
+
+# Tovar atların anıqlaw
+at1 = mahsulotlar[bir - 1]
+at2 = mahsulotlar[eki - 1]
+
+# Hár bir tovardıń bahasın esaplaw
+narx1 = bahalar[bir - 1] * son1
+narx2 = bahalar[eki - 1] * son2
+
+# Ulıwma bahasın esaplaw
+jami = narx1 + narx2
+
+# Chekti ekranǵa shıǵarıw
+print("========== CHEK ==========")
+
+print(f"{at1.upper()}: {son1} ta = {narx1}$")
+print(f"{at2.upper()}: {son2} ta = {narx2}$")
+
+print(f"\nJámi tólem: {jami}$")
+
+print("==========================")
