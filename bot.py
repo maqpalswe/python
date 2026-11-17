@@ -4,7 +4,7 @@ import urllib.parse
 import json
 import time
 
-TOKEN = ""
+TOKEN = "9277256086:AAGNYHGce9DbAepiPMgYm5K-AYGcEoL6aFs"
 URL = "https://api.telegram.org/bot" + TOKEN + "/"
 
 # TELEGRAM MENEN BAYLANÍSATUǴÍN FUNKCIYA
