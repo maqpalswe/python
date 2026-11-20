@@ -134,3 +134,13 @@ print(soz)
 
 region = "Qaraqalpaqstan"
 print(region.count("a", 2))
+
+#Classwork
+#1-tapsirma
+doslar = ['Jazira', 'Dinara', 'Gulshat']
+qalalar = ['Nukus', 'Taxtakopir', 'Shimbay', 'Xojeli']
+
+
+print(doslar)
+print(qalalar[1])
+print(qalalar[3])
