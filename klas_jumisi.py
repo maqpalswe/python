@@ -144,3 +144,28 @@ qalalar = ['Nukus', 'Taxtakopir', 'Shimbay', 'Xojeli']
 print(doslar)
 print(qalalar[1])
 print(qalalar[3])
+
+#Classwork
+#1-tapsirma
+haripler = ['A', 'Z','D', 'C', 'E']
+haripler[1], haripler[-2] = haripler[-2], haripler[1]
+
+#2-tapsirma
+nambers = [[0, 0, 0], [1,2], [10,20,30,40]]
+print(nambers[-1][2])
+
+#3-tapsirma
+mektep = [['Zall', 'Asxana', 'Stadion'], [8, 9, 10], ['English', 'IT']]
+
+#Ekranga shidariw kk
+#English
+#Asxana 
+#Stadion
+#8
+#9
+
+print(mektep[-1][0])
+print(mektep[0][1])
+print(mektep[0][2])
+print(mektep[1][0])
+print(mektep[1][1])
