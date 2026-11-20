@@ -169,3 +169,7 @@ print(mektep[0][1])
 print(mektep[0][2])
 print(mektep[1][0])
 print(mektep[1][1])
+
+miwe = ['banan']
+miwe.append("alma")
+print(miwe)
